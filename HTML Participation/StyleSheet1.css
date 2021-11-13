@@ -1,0 +1,61 @@
+﻿body {
+
+}
+
+nav {
+    float:left;
+    background-color:blanchedalmond;
+    height:100vh;
+}
+
+ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+
+li a{
+    background-color:floralwhite;
+    color:dimgrey;
+    text-decoration:none;
+    text-transform:uppercase;
+    padding: 1em 1.5em;
+    display:block;
+    margin:8px;
+    border-radius: 15px;
+}
+
+li a:hover{
+    background-color: wheat;
+    color:black;
+    cursor:pointer;
+}
+
+/*
+    li a:visited{
+        color:yellow;
+    }
+*/
+
+div {
+    margin:25px;
+}
+
+#Information{
+    background-color:lightgray;
+    width: 25%;
+    padding:15px;
+    margin: 25px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 2px solid gray;
+}
+
+#Information:hover{
+    transition: transform 0.25s ease-in-out;
+    transform: rotate(360deg) scale(2);
+}
+
+.Main{
+    float:left;
+    width:60%;
+}
